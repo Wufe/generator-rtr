@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/7fad9e1e4ea4a27bf3a43959586cb5684c6c584a/redux-immutable-state-invariant/index.d.ts",
+    "raw": "registry:dt/redux-immutable-state-invariant#1.2.0+20160708185723",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/7fad9e1e4ea4a27bf3a43959586cb5684c6c584a/redux-immutable-state-invariant/index.d.ts"
+  }
+}
