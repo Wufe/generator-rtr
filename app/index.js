@@ -159,8 +159,10 @@ module.exports = class extends Generator {
         this.fs.copyTpl(
             this.templatePath('app/StoreProvider.ts'),
             this.destinationPath('app/StoreProvider.ts'), {
+                reduxImmutableStateInvariantRequire: components.immutable ?
+                    `const reduxImmutableStateInvariant = require('redux-immutable-state-invariant').default;` : ``,
                 reduxImmutableStateInvariantMiddlewareComposition: components.immutable ?
-                    `require('redux-immutable-state-invariant')(),` : ``,
+                    `reduxImmutableStateInvariant(),` : ``,
                 reduxLoggerImport: components.logger ?
                     `import * as Logger from 'redux-logger';` : ``,
                 reduxLoggerMiddlewareComposition: components.logger ?
