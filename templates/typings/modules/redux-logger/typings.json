@@ -1,8 +1,0 @@
-{
-  "resolution": "main",
-  "tree": {
-    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/afa6e180c8cd8ab091b4f38a885df70633e937ba/redux-logger/index.d.ts",
-    "raw": "registry:dt/redux-logger#2.6.0+20170125003538",
-    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/afa6e180c8cd8ab091b4f38a885df70633e937ba/redux-logger/index.d.ts"
-  }
-}
