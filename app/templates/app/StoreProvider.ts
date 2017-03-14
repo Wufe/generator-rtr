@@ -6,6 +6,8 @@ declare let window: any;
 <%- reduxSagaImport %> // import {default as Saga} from 'redux-saga';
 <%- rootSagaImport %> // import {root as rootSaga} from './sagas';
 
+<%- reduxImmutableStateInvariantRequire %> // const reduxImmutableStateInvariant = require('redux-immutable-state-invariant').default;
+
 import {State} from './states';
 import {applyMiddleware, createStore, compose, Store} from 'redux';
 import {root as rootReducer} from './reducers';
